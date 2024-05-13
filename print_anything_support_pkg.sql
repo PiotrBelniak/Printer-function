@@ -1,11 +1,4 @@
---------------------------------------------------------
---  File created - poniedzia³ek-maja-13-2024   
---------------------------------------------------------
---------------------------------------------------------
---  DDL for Package PRINTANYTHING_PKG
---------------------------------------------------------
-
-  CREATE OR REPLACE NONEDITIONABLE PACKAGE "PIOTR"."PRINTANYTHING_PKG" ACCESSIBLE BY (function print_anything)
+CREATE OR REPLACE NONEDITIONABLE PACKAGE "PIOTR"."PRINTANYTHING_PKG" ACCESSIBLE BY (function print_anything)
 IS
     type varchar2_100_ntt IS TABLE OF VARCHAR2(100);
     function print_bdouble(adata IN ANYDATA) return VARCHAR2;

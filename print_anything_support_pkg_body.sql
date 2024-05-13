@@ -1,11 +1,4 @@
---------------------------------------------------------
---  File created - poniedzia³ek-maja-13-2024   
---------------------------------------------------------
---------------------------------------------------------
---  DDL for Package Body PRINTANYTHING_PKG
---------------------------------------------------------
-
-  CREATE OR REPLACE NONEDITIONABLE PACKAGE BODY "PIOTR"."PRINTANYTHING_PKG" 
+CREATE OR REPLACE NONEDITIONABLE PACKAGE BODY "PIOTR"."PRINTANYTHING_PKG" 
 IS
     function print_bdouble(adata IN ANYDATA) return VARCHAR2
     IS
