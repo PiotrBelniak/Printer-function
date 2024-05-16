@@ -13,7 +13,7 @@ select print_anything(AnyData.ConvertObject(object column)) from table_clause
 ```
 
 ## Result
-The function returns text with our data in format: format: data.  
+The function returns text with our data in format: _format_: _data_.  
 This can be easily customized by manipulating our additional packages.
 
 ## Example of usage
